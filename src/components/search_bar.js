@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-var token = process.env.API_TOKEN;
+
 class SearchBar extends Component {
   constructor(props) {
     super(props);
@@ -12,7 +12,7 @@ class SearchBar extends Component {
         <input
           value={this.state.term}
           onChange={event => this.setState({ term: event.target.value})} />
-      ^</div>
+      </div>
   );
 
   }
